@@ -1,6 +1,6 @@
 export default function Book ({book, addToCart}) {
 
-    const { name, image, description, price } = book
+    const { name, description, price } = book
 
     return (
         <div className="productContainerMain">
