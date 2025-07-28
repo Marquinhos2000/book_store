@@ -18,6 +18,7 @@ function App() {
     if (itemExists >= 0) {
       const updatedCart = [...cart]
       updatedCart[itemExists].quantity++
+      setCart(updatedCart);
 
     } else {
       item.quantity = 1
